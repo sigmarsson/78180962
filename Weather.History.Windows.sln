@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.History.Windows", "Weather.History.Windows.csproj", "{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Weather.History.Shared", "..\Weather.History.Shared\Weather.History.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Debug|x64.ActiveCfg = Debug|x64
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Debug|x64.Build.0 = Debug|x64
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Debug|x64.Deploy.0 = Debug|x64
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Debug|x86.ActiveCfg = Debug|x86
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Debug|x86.Build.0 = Debug|x86
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Debug|x86.Deploy.0 = Debug|x86
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Release|x64.ActiveCfg = Release|x64
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Release|x64.Build.0 = Release|x64
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Release|x64.Deploy.0 = Release|x64
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Release|x86.ActiveCfg = Release|x86
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Release|x86.Build.0 = Release|x86
+		{FEDECDC0-C641-49F2-BC96-B3383AEC22BE}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4547E58-6C3C-464F-907D-F452DEC769A8}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Weather.History.Shared\Weather.History.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		..\Weather.History.Shared\Weather.History.Shared.projitems*{fedecdc0-c641-49f2-bc96-b3383aec22be}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
